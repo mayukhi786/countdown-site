@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(247, 247, 247)
+}
+
+.background {
+    opacity: 0.06;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 95%;
+    height: 100%;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.welcome-week {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+    font-size: 2rem;
+}
+
+.uniLogo {
+    padding: 7rem;
+}
